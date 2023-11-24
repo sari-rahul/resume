@@ -22,6 +22,51 @@
     background-color: #525252;
 }
 
+.bg-color-three-reasons {
+    background-color: #fff;
+
+}
+
+/*--------------------------------------------Special paddings/margins and Texts*/
+.uppercase {
+    text-transform: uppercase;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+/*--------------------------------------------General*/
+.general-sub {
+    font-family: Exo, sans-serif;
+    font-weight: 300;
+    color: #fafafa
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.row-table {
+    display: table;
+}
+
+.section-column {
+    display: table-cell;
+    padding: 0 30px 30px;
+    float: none;
+}
+
+.section-heading {
+    font-family: Exo, sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
 /*--------------------------------------------Heading*/
 
 header {
@@ -118,23 +163,7 @@ header {
     height: 120px;
 }
 
-/*--------------------------------------------Special paddings/margins and Texts*/
-.uppercase {
-    text-transform: uppercase;
-}
 
-h1,
-h2,
-h3,
-h4 {
-    margin: 0;
-}
-
-.general-sub {
-    font-family: Exo, sans-serif;
-    font-weight: 300;
-    color: #fafafa
-}
 
 /*--------------------------------------------Footer*/
 footer {
@@ -142,4 +171,48 @@ footer {
     color: #fafafa;
     min-height: 120px;
     margin: 0;
+}
+
+.cv-pdf i {
+    font-size: 18px;
+    color: #fafafa;
+    text-align: center;
+    padding-left: 5px;
+    transition: all .35sec ease-in-out;
+    -moz-transition: all .35sec ease-in-out;
+    -webkit-transition: all .35sec ease-in-out;
+    -o-transition: all .35sec ease-in-out;
+}
+
+.cv-pdf i:hover {
+    color: #e84610;
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    padding: 12px 0;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background-color: #8f8f8f;
+    transition: all .35sec ease-in-out;
+    -moz-transition: all .35sec ease-in-out;
+    -webkit-transition: all .35sec ease-in-out;
+    -o-transition: all .35sec ease-in-out;
+}
+
+.social-links li a i:hover {
+    background-color: #e84610;
+
+}
+
+#footer-details {
+    padding: 20px;
 }
